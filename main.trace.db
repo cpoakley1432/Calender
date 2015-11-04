@@ -1,3 +1,9 @@
 2015-11-04 11:44:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "EVENTS" not found; SQL statement:
 SELECT * FROM events [42102-190]
+2015-11-04 12:08:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM EVENTS ORDER BY ASC BY[*] START_DATEASC "; SQL statement:
+SELECT * FROM events ORDER BY ASC By start_dateASC [42000-190]
+2015-11-04 12:08:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM EVENTS ORDER BY ASC BY[*] START_DATE ASC "; SQL statement:
+SELECT * FROM events ORDER BY ASC By start_date ASC [42000-190]
